@@ -20,7 +20,7 @@ Simply run the command:\
 `ldid -Sentitlements.xml keychaindumper++`
 
 #### For usage options:
-`keychaindumper++ -h`
+`./keychaindumper++ -h`
 
 ## Tested
 keychaindumper++: For both 32 and 64-bit arch type.\
