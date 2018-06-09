@@ -4,6 +4,7 @@ Improve existing keychain_dumper [1](https://github.com/abhinashjain/keychain-du
 ## Introduction
 Original keychain_dumper [1](https://github.com/abhinashjain/keychain-dumper-plusplus#Source) usually fails to retreive identity certs from the iOS keychain.\
 Commit in [2](https://github.com/abhinashjain/keychain-dumper-plusplus#Source) addresses this problem, but fails to compile the build and generate the proper binary.\
+\
 This repo is a hack-ish attempt to address the compilation problem by modifying some of the headers in the code and flags, SDKs, compiler paths in the *Makefile*. 
 
 ## Build
@@ -12,7 +13,7 @@ Change the *arch* type in *Makefile* for the target iOS device architecture.\
 Then run the below command to get the keychaindumper++ executable.\
 `make` 
 
-In case of any issue, try to change the SDK/gcc/clang executable path or open a ticket.
+In case of any issue, try to change the SDK | target_min_version | gcc/clang path  | open a ticket.
 
 #### On iOS:
 Simply run the command:\
