@@ -8,18 +8,18 @@ Commit in [2](https://github.com/abhinashjain/keychain-dumper-plusplus#Source) a
 This repo is a hack-ish attempt to address the compilation problem by modifying some of the headers in the code and flags, SDKs, compiler paths in the *Makefile*. 
 
 **Build**\
-######On Mac:######\
+#### On Mac:\
 Change the *arch* type in *Makefile* for the target iOS device architecture.
 and run the below command to get the keychaindumper++ executable.
 `make` 
 
 In case of any issue, try to change the SDK/gcc/clang executable path or open a ticket.
 
-######On iOS:######\
+#### On iOS:\
 Simply run the command:
 `ldid -Sentitlements.xml keychaindumper++`
 
-######For usage options:######\
+#### For usage options:\
 `keychaindumper++ -h`
 
 **Tested**\
